@@ -12,7 +12,7 @@
 import firebase from 'firebase'
 
 export default {
-  beforeRoutEnter (to, from, next) {
+  beforeRouteEnter (to, from, next) {
     const cancel = firebase.auth().onAuthStateChanged((user) => {
       cancel()
       if (user) {

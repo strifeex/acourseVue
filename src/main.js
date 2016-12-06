@@ -8,7 +8,7 @@ import '!style!!css!semantic-ui-css/semantic.min.css'
 
 import App from './App'
 
-firebase.initializeApp = ({
+firebase.initializeApp({
   apiKey: 'AIzaSyBzN36zUOUUGUZA4oKN4D9zpjH-nu7xfsE',
   authDomain: 'twitty-vue-93e0c.firebaseapp.com',
   databaseURL: 'https://twitty-vue-93e0c.firebaseio.com',

@@ -17,7 +17,7 @@ export default {
     currentUser: null
   }),
   created () {
-    firebase.auth().onAuthStateChange((user) => {
+    firebase.auth().onAuthStateChanged((user) => {
       console.log('current user:' + user)
       this.currentUser = user
     })
