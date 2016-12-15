@@ -24,6 +24,7 @@ Vue.filter('upper', (value) => {
   return value
 })
 
+<<<<<<< HEAD
 const ticker = new Vue({
   data: () => ({
     tick: 0
@@ -40,6 +41,8 @@ Vue.filter('fromNow', (value) => {
   return moment(value).fromNow()
 })
 
+=======
+>>>>>>> db50455d5cbcf9c8efb60c516e5fac9e2381c908
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
