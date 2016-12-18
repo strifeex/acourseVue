@@ -15,7 +15,6 @@ const set = (id, data) => {
   .set(data)
 }
 
-<<<<<<< HEAD
 const list = (callback) => {
   firebase.database().ref('user')
   .on('value', (snapshots) => {
@@ -29,8 +28,6 @@ const list = (callback) => {
   })
 }
 
-=======
->>>>>>> db50455d5cbcf9c8efb60c516e5fac9e2381c908
 const subscribe = (id, callback) => {
   firebase.database()
     .ref(`user/${id}`)
@@ -42,10 +39,6 @@ const subscribe = (id, callback) => {
 export default {
   get,
   set,
-<<<<<<< HEAD
   subscribe,
   list
-=======
-  subscribe
->>>>>>> db50455d5cbcf9c8efb60c516e5fac9e2381c908
 }
